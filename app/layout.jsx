@@ -1,4 +1,4 @@
-import React from "react";
+import Navbar from "@/components/Navbar";
 
 // Style Importing
 import "@/assets/styles/globals.css";
@@ -14,7 +14,8 @@ const MainLayout = ({ children }) => {
   return (
     <html leng="en">
       <body>
-        <div>{children}</div>
+        <Navbar />
+        <main>{children}</main>
       </body>
     </html>
   );
